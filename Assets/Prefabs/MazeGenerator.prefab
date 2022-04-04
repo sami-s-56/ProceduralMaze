@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6412787103573799792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6412787103573799795}
+  - component: {fileID: 6330818494101029937}
+  m_Layer: 0
+  m_Name: MazeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6412787103573799795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6412787103573799792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6330818494101029937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6412787103573799792}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df377308001f675448b9616e0d58e62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scale: 5
+  size_X: 0
+  size_Z: 0
+  playerPrefab: {fileID: 4607536592162570171, guid: 7f3c3dceeffb94f85bc6150d13ac6a09, type: 3}
+  StraightPiece: {fileID: 4685894569275715549, guid: 1ca5382dd51154444b053ef4a75d1ebc, type: 3}
+  CornerPieceCurved: {fileID: 7763247783888827826, guid: 7b01ca415fa60b64cb11eb85e0b70c0a, type: 3}
+  CornerPiece: {fileID: 6932714963654681061, guid: 6e3b2bd82d854ff45a58d4014728d259, type: 3}
+  TJunctionPiece: {fileID: 3550616233402153614, guid: 62eea22996c6bd749a3bf19b9088d56b, type: 3}
+  XJunctionPiece: {fileID: 6054180129985118421, guid: d5828e079993351409403877b1ab1d1b, type: 3}
+  DeadEndPiece: {fileID: 8113204153082825345, guid: 6c8cb427d001ad544955ad7a34949101, type: 3}
+  StairwellStraight: {fileID: 1872718733120222233, guid: 50548a7703af6794badead489c6b3f26, type: 3}
+  StairwellEnd: {fileID: 4195476724303709118, guid: b8bbb28eae31d90429540c0509c87801, type: 3}
+  offsetStraightPiece: 0
+  offsetCornerPiece: 0
+  offsetTJuncPiece: 0
+  offsetXJuncPiece: 0
+  offsetDeadEndPiece: 0
+  offsetStraightStairwell: 0
+  offsetDeadEndStairwell: 0
+  level: 0
+  heightOffset: 5
